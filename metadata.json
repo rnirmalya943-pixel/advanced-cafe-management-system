@@ -1,0 +1,6 @@
+{
+  "name": "Advanced Cafe Management System",
+  "description": "A complete Cafe Management System with login, admin panel, POS, receipts, and reporting using SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

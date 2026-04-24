@@ -1,0 +1,1 @@
+const db = require('better-sqlite3')('cafe.db'); try { db.exec("ALTER TABLE orders ADD COLUMN created_at TEXT DEFAULT CURRENT_TIMESTAMP"); console.log("Added created_at"); } catch (e) { console.log("Error:", e.message); }
